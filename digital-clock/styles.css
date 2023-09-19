@@ -1,0 +1,47 @@
+/* body {
+display: flex;
+justify-content: center;
+align-items: center;
+} */
+
+.container { 
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height:100vh;
+    flex-direction: column;
+}
+
+#clock {
+    font-size: xx-large;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.hour {
+    color: brown;
+}
+
+.mins {
+    color: green;
+}
+
+.sec {
+    color: blue;
+}
+
+.btn {
+    padding: 10px 30px;
+    font-size: 15px;
+    background-color:rgb(122, 7, 205);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin: 5px;
+}
+
+.btn:hover {
+    background-color: rgba(122, 7, 205, 0.8);
+}
