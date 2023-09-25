@@ -1,0 +1,15 @@
+.notification {
+    position: fixed;
+    z-index: 1000;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    background: white;
+    text-align: center;
+  }
+  
+  .welcome {
+    background: #006c46;
+    color: white;
+  }
